@@ -1,9 +1,9 @@
 from telebot import TeleBot, types
 
 from compliments import compliment
+from settings import API_TOKEN
 
-api_token = '5691610356:AAGfXU20F7sAwqc5F7qC06dp_8-m0VgmAzc'
-bot = TeleBot(api_token)
+bot = TeleBot(API_TOKEN)
 
 
 @bot.message_handler(commands=['start'])
