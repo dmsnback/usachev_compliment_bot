@@ -1,5 +1,4 @@
 from telebot import TeleBot, types
-
 from compliments import compliment
 from settings import API_TOKEN
 
